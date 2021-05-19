@@ -9,13 +9,13 @@ let my_switch = false;
 
 		$(this).html('Click for Puppy Girl').removeClass('btn-primary').addClass('btn-success');
 
-		$('#my_image').attr('src', 'images/puppy_boy.jpeg');
+		$('#my_image').attr('src', 'images/puppy_boy2.jpg');
 	} else {
 		my_switch = false;
 
-		$(this).html('Click for Puppy Boy').removeClass('btn-primary').addClass('btn-primary');
+		$(this).html('Click for Puppy Boy').removeClass('btn-success').addClass('btn-primary');
 
-		$('#my_image').attr('src', 'images/puppy_girl.jpeg');
+		$('#my_image').attr('src', 'images/puppy_girl2.jpg');
 	}
 
 	// if ( $('.square.alt').hasClass('red') ) {
@@ -23,6 +23,7 @@ let my_switch = false;
 	// } else {
 	// 	$('.square.alt').addClass('red');
 	// }
+
 
 
 });
