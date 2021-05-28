@@ -18,6 +18,7 @@ let my_switch = false;
 		$('#my_image').attr('src', 'images/puppy_girl2.jpg');
 	}
 
+
 	// if ( $('.square.alt').hasClass('red') ) {
 	// 	$('.square.alt').removeClass('red');
 	// } else {

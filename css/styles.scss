@@ -56,6 +56,12 @@ div{
   border-color: red;
 }
 
+.btn-primary {
+	color: white;
+	background-color: pink;
+	border-color: red;
+}
+
   .board {
   	background: yellow;
   	width: 300px;
@@ -81,6 +87,10 @@ div{
     width: auto;
     height: 500px;
 		text-align: center;
+
+	.my-button-style {
+	    font-family: 'Indie Flower';
+	    font-size: 24px;
 
   }
 }
