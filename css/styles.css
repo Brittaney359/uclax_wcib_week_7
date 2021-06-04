@@ -40,16 +40,33 @@ body {
     padding-right: 15%;
     padding-bottom: 2%;
     font-size: 160%; }
-  body .btn-success {
-    font-family: 'Raleway', sans-serif;
-    color: red;
-    background-color: pink;
-    border-color: red; }
   body .board {
     background: yellow;
     width: 300px;
     height: 300px;
     margin-bottom: 20px; }
+  body .btn-primary,
+  body .btn-primary:visited,
+  body .btn-primary:active {
+    color: #555;
+    background-color: #b6d3d8;
+    border-color: #63bac6;
+    margin: 10px; }
+  body .btn-primary:hover {
+    background-color: #89afb6;
+    border-color: #63bac6;
+    margin: 10px; }
+  body .btn-secondary,
+  body .btn-secondary:visited,
+  body .btn-secondary:active {
+    color: #555;
+    background-color: #e3a7a7;
+    border-color: #ff7b9e;
+    margin: 10px; }
+  body .btn-secondary:hover {
+    background-color: #e38787;
+    border-color: #ff7b9e;
+    margin: 10px; }
   body .animal {
     width: auto;
     height: 500px;

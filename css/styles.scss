@@ -49,25 +49,60 @@ div{
 		font-size: 160%;
 	}
 
-	.btn-success {
-	font-family: 'Raleway', sans-serif;
-  color: red;
-  background-color: pink;
-  border-color: red;
-}
-
-.btn-primary {
-	color: white;
-	background-color: pink;
-	border-color: red;
-}
-
+// 	.btn-success {
+// 	font-family: 'Raleway', sans-serif;
+//   color: red;
+//   background-color: pink;
+//   border-color: red;
+// }
+//
+// .btn-primary,
+// .btn-primary:visited,
+// .btn-primary:active{
+// 	color: white;
+// 	background-color: pink;
+// 	border-color: red;
+// }
+//
+// .btn-primary:hover {
+// 	background-color: #b6d3d8;
+// }
   .board {
   	background: yellow;
   	width: 300px;
   	height: 300px;
     margin-bottom: 20px;
   }
+
+	.btn-primary,
+.btn-primary:visited,
+.btn-primary:active {
+  color: #555;
+  background-color: #b6d3d8;
+  border-color: #63bac6;
+  margin: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #89afb6;
+  border-color: #63bac6;
+  margin: 10px;
+}
+
+.btn-secondary,
+.btn-secondary:visited,
+.btn-secondary:active {
+  color: #555;
+  background-color: #e3a7a7;
+  border-color: #ff7b9e;
+  margin: 10px;
+}
+
+.btn-secondary:hover {
+  background-color: #e38787;
+  border-color: #ff7b9e;
+  margin: 10px;
+}
 
   // .square {
   // 	width: 100px;
@@ -88,9 +123,9 @@ div{
     height: 500px;
 		text-align: center;
 
-	.my-button-style {
-	    font-family: 'Indie Flower';
-	    font-size: 24px;
+	// .my-button-style {
+	//     font-family: 'Indie Flower';
+	//     font-size: 24px;
 
   }
 }
